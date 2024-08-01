@@ -1,0 +1,22 @@
+.nav{
+    display: flex;
+    padding: 1rem;
+    justify-content: space-between;
+}
+.logo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+    color: #344a67;
+}
+.imges{
+filter: hue-rotate(210deg) saturate(2.5) brightness(0.9) contrast(1.2);
+
+
+}
+.links{
+    display: flex;
+    gap: 2rem;
+    font-weight: 500;
+}

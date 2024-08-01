@@ -1,0 +1,32 @@
+.founderSection{
+    display: grid;
+    /* grid-template-columns: auto auto auto; */
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    padding: 10rem;
+    justify-content: center;
+    align-items: center;
+    gap: 5rem;
+}
+@media (max-width: 841px){
+    .founderSection{
+        /* grid-template-columns: auto auto; */
+       
+    }
+}
+.founderImage{
+    object-fit: cover;
+    border-radius: 20rem;
+}
+.founder{
+    writing-mode:sideways-lr;
+    font-weight: 800;
+    font-size: 3.6rem;
+    letter-spacing: .7rem;
+}
+
+.founderGroup{
+    /* display: flex;
+    gap: 2rem;
+    justify-content: center;
+    align-items: center; */
+}

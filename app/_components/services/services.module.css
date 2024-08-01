@@ -1,0 +1,17 @@
+.servicesContainer{
+    padding: 6rem;
+
+}
+
+.servicesParah{
+font-size: 2.4rem;
+}
+.colImage{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+   gap: 10rem;
+}
+.imgs{
+    border-radius: 30rem;
+    
+}

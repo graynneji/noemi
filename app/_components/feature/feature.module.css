@@ -1,0 +1,10 @@
+.feature{
+    border-radius: 3rem;
+    text-align: center;
+    padding: 5rem;
+    margin-top: -1rem;
+    z-index: 10000;
+    background-color: #bfcb94;
+    position: relative;
+    font-size: 4rem;
+}

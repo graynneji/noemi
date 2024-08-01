@@ -1,0 +1,25 @@
+.imageConatiner{
+    position: relative;
+ 
+ 
+}
+.services{
+    width: 50px;
+    min-width: 100%;
+    height: 400px;
+
+}
+
+.tutorials{
+    width: 54.2rem;
+    height: 500px;
+    min-width:20%;
+}
+.videos{
+    width: 100%;
+    height: 250px;
+}
+.founder{
+    width:450px;
+    height: 600px;
+}

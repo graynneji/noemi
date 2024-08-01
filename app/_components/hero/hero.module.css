@@ -1,0 +1,15 @@
+.hero{
+    /* object-fit: cover; */
+}
+.heroContainer{
+   /* background-color: red; */
+   max-width: 100%;
+ /* overflow: hidden; */
+ height: 100vh;
+ position: relative;
+}
+
+.heroImage{
+
+    object-fit: cover;
+}
