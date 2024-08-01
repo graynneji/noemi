@@ -1,6 +1,7 @@
 import Link from "next/link";
 import Image from "next/image";
 import styles from "./navigation.module.css";
+import { GiHamburgerMenu } from "react-icons/gi";
 export default function Navigation() {
   return (
     <nav className={styles.nav} style={{ backgroundColor: "#f3f7f2" }}>
@@ -14,8 +15,8 @@ export default function Navigation() {
           alt="Logo Accountibility"
         />
         <Image
-          src="/logoTEXTnew_WHITE.png"
-          height={23}
+          src="/logoTEXTnew_bleu.png"
+          height={20}
           width={100}
           alt="logo text"
           className={styles.imges}
@@ -29,13 +30,15 @@ export default function Navigation() {
         <Link href="/about">
           <li>ABOUT</li>
         </Link>
-        <Link href="/press">
-          <li>PRESS</li>
+        <Link href="/services">
+          <li>SERVICES</li>
         </Link>
         <Link href="/contact">
           <li>CONTACT</li>
         </Link>
       </ul>
+
+      <GiHamburgerMenu className={styles.mobileMenu} />
     </nav>
   );
 }

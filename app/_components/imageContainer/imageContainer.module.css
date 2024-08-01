@@ -23,3 +23,35 @@
     width:450px;
     height: 600px;
 }
+@media (max-width: 626px){
+    .founder{
+    
+        width:100%;
+        height: 500px;
+    }
+}
+@media (max-width: 548px){
+    .founder{
+    
+        width:100%;
+        height: 400px;
+    }
+}
+.home{
+        width:450px;
+        height: 600px;
+}
+@media (max-width: 898px){
+    .home{
+        width:100%;
+        /* width:450px; */
+        height: 400px;
+    }
+}
+@media (max-width: 647px){
+    .home{
+        width:100%;
+        /* width:450px; */
+        height: 250px;
+    }
+}

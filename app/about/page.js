@@ -9,7 +9,7 @@ import Founder from "../_components/founder/Founder";
 export default function Page() {
   return (
     <>
-      <Hero src={aboutImage} />
+      <Hero src={aboutImage} name="ABOUT US" />
       <Feature>
         <AboutUs />
       </Feature>

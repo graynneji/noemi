@@ -8,3 +8,15 @@ border-radius: 10rem;
 font-size: 2rem;
 text-align: left;
 }
+@media (max-width: 928px){
+    .parahAbout{
+        font-size: 1.5rem;
+    
+             }
+}
+@media (max-width: 625px){
+    .parahAbout{
+        font-size: 1.1rem;
+    
+             }
+}

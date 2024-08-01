@@ -1,16 +1,29 @@
 .founderSection{
     display: grid;
-    /* grid-template-columns: auto auto auto; */
-    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    grid-template-columns: auto auto;
+    /* grid-template-columns: repeat(cover, minmax(auto, auto)); */
     padding: 10rem;
     justify-content: center;
     align-items: center;
     gap: 5rem;
 }
-@media (max-width: 841px){
+@media (max-width: 928px){
     .founderSection{
         /* grid-template-columns: auto auto; */
        
+    }
+    .foundersText{
+        font-size: 1.5rem;
+    }
+}
+
+@media (max-width: 779px){
+    .founderSection{
+        grid-template-columns: auto;
+       
+    }
+    .foundersText{
+        font-size: 1.5rem;
     }
 }
 .founderImage{
@@ -29,4 +42,15 @@
     gap: 2rem;
     justify-content: center;
     align-items: center; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5rem;
+}
+
+@media (max-width: 625.6px){
+    .founderSection{
+        padding-left: 50px;
+        padding-right: 50px;
+    }
 }

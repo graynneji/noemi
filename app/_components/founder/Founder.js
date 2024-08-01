@@ -5,8 +5,8 @@ import ImageContainer from "../imageContainer/ImageContainer";
 export default function Founder() {
   return (
     <section className={styles.founderSection}>
-      <span className={styles.founder}>FOUNDER</span>
       <figure className={styles.founderGroup}>
+        <span className={styles.founder}>FOUNDER</span>
         <ImageContainer type="founder">
           <Image
             className={styles.founderImage}
@@ -18,7 +18,7 @@ export default function Founder() {
           />
         </ImageContainer>
       </figure>
-      <p>
+      <p className={styles.foundersText}>
         [PLACEHOLDER TEXT] This area is set for a quick bio about yourself. This
         could include your education, experience, skills, etc. This section can
         also be an introduction into how the business came to be, a quick

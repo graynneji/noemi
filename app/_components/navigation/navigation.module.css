@@ -20,3 +20,16 @@ filter: hue-rotate(210deg) saturate(2.5) brightness(0.9) contrast(1.2);
     gap: 2rem;
     font-weight: 500;
 }
+.mobileMenu{
+    display: none;
+}
+@media (max-width: 624px){
+    .mobileMenu{
+        display: flex;
+       font-size: 2.5rem;
+       color: #344a67;
+    }
+    .links{
+        display: none;
+    }
+}

@@ -8,3 +8,13 @@
     position: relative;
     font-size: 4rem;
 }
+@media (max-width: 736px){
+    .feature{
+        font-size: 2.5rem;
+    }
+}
+@media (max-width: 505px){
+    .feature{
+        font-size: 2rem;
+    }
+}

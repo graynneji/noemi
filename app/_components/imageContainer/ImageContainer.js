@@ -5,6 +5,7 @@ const typeStyles = {
   services: styles.services,
   videos: styles.videos,
   founder: styles.founder,
+  home: styles.home,
 };
 
 export default function ImageContainer({ children, type }) {

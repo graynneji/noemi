@@ -5,10 +5,18 @@
     align-items: center;
     grid-template-columns: auto auto;
     padding: 5rem;
-    gap: 100px;
+    gap: 50px;
+    /* gap: 100px; */
     font-size: 3.4rem;
     justify-content: center;
     align-items: center;
+}
+@media (max-width: 898px){
+    .offerSection{
+      
+        grid-template-columns: auto ;
+      
+    }
 }
 .imaageContainer{
     position: relative;
@@ -20,3 +28,27 @@
     border-radius: 50rem;
     object-fit: cover;
 }
+
+@media (max-width: 1187.2px){
+    .offerText{
+font-size: 3rem;
+    }
+}
+@media (max-width: 1029px){
+    .offerText{
+font-size: 2.5rem;
+    }
+}
+@media (max-width: 898px){
+    .offerText{
+      
+        grid-row: 2 ;
+      
+    }
+}
+@media (max-width: 647px){
+    .offerText{
+        font-size: 1.5rem;
+            }
+}
+
