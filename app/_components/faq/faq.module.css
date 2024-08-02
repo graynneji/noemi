@@ -1,10 +1,26 @@
 .faq{
     background-color: #bfcb94;
     padding: 4rem;
+    padding-left: 8rem;
+    padding-right: 8rem;
+    font-size: 2rem;
 }
 .faqQuestion{
-    border-top: 1px solid #344a67;
+    border-top: 2px solid #344a67;
+    padding-top: 1.5rem;
+    padding-bottom:1.5rem;
 }
+.faqQuestion:last-child{
+    border-bottom: 2px solid #344a67;
+    
+}
+
 .faqAnswer{
-    border-top: 1px solid  #344a67;
+    border-top: 2px solid  #344a67;
+    padding-left: 3rem;
+    padding-top: 1.5rem;
+    padding-bottom:1.5rem;
+}
+.faqAnswer:last-child{
+    border-bottom: 2px solid #344a67;
 }
