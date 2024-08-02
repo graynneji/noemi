@@ -19,6 +19,21 @@ export const metadata = {
   },
   description:
     "We are a boutique accounting firm looking to deliver accounting/bookkeeping on a personable level to small & medium business owners.",
+  socialMedia: {
+    og: {
+      title: "A•ccontabilité",
+      description:
+        "We are a boutique accounting firm looking to deliver accounting/bookkeeping on a personable level to small & medium business owners.",
+      image: "(link unavailable)",
+    },
+    twitter: {
+      card: "summary_large_image",
+      title: "A•ccontabilité",
+      description:
+        "We are a boutique accounting firm looking to deliver accounting/bookkeeping on a personable level to small & medium business owners.",
+      image: "(link unavailable)",
+    },
+  },
 };
 
 export default function RootLayout({ children }) {
