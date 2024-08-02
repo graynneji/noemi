@@ -3,18 +3,22 @@ import Link from "next/link";
 import Image from "next/image";
 import styles from "./navigation.module.css";
 import { GiHamburgerMenu } from "react-icons/gi";
+import { GrClose } from "react-icons/gr";
 import {
   NavMenuProvider,
   useNav,
   useNavMenu,
 } from "@/app/context/NavMenuContext";
+import MobileNavMenu from "../mobileNavMenu/MobileNavMenu";
 
 export default function Navigation() {
-  const { open, setOpen } = useNavMenu();
+  const { open, toggleMenu } = useNavMenu();
   console.log(open);
+
   return (
-    <NavMenuProvider>
-      <nav className={styles.nav} style={{ backgroundColor: "#f3f7f2" }}>
+    <>
+      {open && <MobileNavMenu />}
+      <nav className={styles.nav}>
         <div className={styles.logo}>
           <Image
             src="/logoAC.png"
@@ -48,11 +52,20 @@ export default function Navigation() {
           </Link>
         </ul>
 
-        <GiHamburgerMenu
-          className={styles.mobileMenu}
-          onClick={() => setOpen(!open)}
-        />
+        {!open ? (
+          <GiHamburgerMenu
+            className={styles.mobileMenu}
+            // onClick={() => setOpen(!open)}
+            onClick={toggleMenu}
+          />
+        ) : (
+          <GrClose
+            className={styles.mobileMenu}
+            // onClick={() => setOpen(!open)}
+            onClick={toggleMenu}
+          />
+        )}
       </nav>
-    </NavMenuProvider>
+    </>
   );
 }

@@ -24,14 +24,14 @@ export const metadata = {
       title: "A•ccontabilité",
       description:
         "We are a boutique accounting firm looking to deliver accounting/bookkeeping on a personable level to small & medium business owners.",
-      image: "(link unavailable)",
+      image: "@/public/Financial.jpg",
     },
     twitter: {
       card: "summary_large_image",
       title: "A•ccontabilité",
       description:
         "We are a boutique accounting firm looking to deliver accounting/bookkeeping on a personable level to small & medium business owners.",
-      image: "(link unavailable)",
+      image: "@/public/Financial.jpg",
     },
   },
 };

@@ -1,16 +1,21 @@
 "use client";
-import { createContext, useContext, useState } from "react";
+import { createContext, useContext, useEffect, useState } from "react";
 
 const NavMenuContext = createContext();
 
 function NavMenuProvider({ children }) {
   const [open, setOpen] = useState(false);
 
+  function toggleMenu() {
+    setOpen(!open);
+  }
+
   return (
     <NavMenuContext.Provider
       value={{
         open,
-        setOpen,
+        // setOpen,
+        toggleMenu,
       }}
     >
       {children}
