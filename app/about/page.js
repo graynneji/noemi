@@ -6,6 +6,7 @@ import Feature from "../_components/feature/Feature";
 import AboutUs from "../_components/aboutus/AboutUs";
 import Offer from "../_components/offer/Offer";
 import Founder from "../_components/founder/Founder";
+
 export default function Page() {
   return (
     <>
@@ -15,6 +16,7 @@ export default function Page() {
       </Feature>
       {/* <Trapezium />
       <Services /> */}
+
       <Founder />
     </>
   );

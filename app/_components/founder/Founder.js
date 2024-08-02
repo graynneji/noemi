@@ -2,6 +2,7 @@ import Image from "next/image";
 import styles from "./founder.module.css";
 import profileImage from "@/public/Bookkeeping.jpg";
 import ImageContainer from "../imageContainer/ImageContainer";
+
 export default function Founder() {
   return (
     <section className={styles.founderSection}>

@@ -2,6 +2,7 @@ import Navigation from "./_components/navigation/Navigation";
 import "@/app/_styles/globalStyles.css";
 // import { Montserrat } from "next/font/google";
 import { Poppins } from "next/font/google";
+import { NavMenuProvider } from "./context/NavMenuContext";
 
 const poppins = Poppins({
   //subset if you using english its latin
@@ -23,15 +24,17 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
-      <body className={poppins.className}>
-        <div className="container">
-          <header>
-            <Navigation />
-          </header>
-          <main>{children}</main>
-          <footer>copyright</footer>
-        </div>
-      </body>
+      <NavMenuProvider>
+        <body className={poppins.className}>
+          <div className="container">
+            <header>
+              <Navigation />
+            </header>
+            <main>{children}</main>
+            <footer>copyright</footer>
+          </div>
+        </body>
+      </NavMenuProvider>
     </html>
   );
 }

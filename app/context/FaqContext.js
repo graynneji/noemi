@@ -21,7 +21,7 @@ function FaqProvider({ children }) {
 function useFaqs() {
   const context = useContext(FaqContext);
   if (context === undefined)
-    throw new Error("FaqContext was used outside the CitiesProvider");
+    throw new Error("FaqContext was used outside the FaqProvider");
   return context;
 }
 export { FaqProvider, useFaqs };

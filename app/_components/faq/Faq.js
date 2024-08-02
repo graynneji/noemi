@@ -1,6 +1,6 @@
 "use client";
 import styles from "./faq.module.css";
-import { createContext } from "react";
+import { createContext, Fragment } from "react";
 import { FaqProvider, useFaqs } from "@/app/context/FaqContext";
 
 const faqQuestions = [
@@ -32,22 +32,20 @@ const faqQuestions = [
 
 export default function Faq() {
   const { faq, setFaq } = useFaqs();
-  console.log(faq);
 
   function handleToggle(id) {
     setFaq(faq ? null : id);
-    console.log(faq);
   }
 
   return (
     <section className={styles.faq}>
       {faqQuestions.map((faqQ) => (
-        <>
+        <Fragment key={faqQ.id}>
           <div key={faqQ.id} onClick={() => handleToggle(faqQ.id)}>
             {faqQ.question}
           </div>
           {faq === faqQ.id && <div>{faqQ.answer}</div>}
-        </>
+        </Fragment>
       ))}
     </section>
   );
