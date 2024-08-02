@@ -41,10 +41,16 @@ export default function Faq() {
     <section className={styles.faq}>
       {faqQuestions.map((faqQ) => (
         <Fragment key={faqQ.id}>
-          <div key={faqQ.id} onClick={() => handleToggle(faqQ.id)}>
+          <div
+            className={styles.faqQuestion}
+            key={faqQ.id}
+            onClick={() => handleToggle(faqQ.id)}
+          >
             {faqQ.question}
           </div>
-          {faq === faqQ.id && <div>{faqQ.answer}</div>}
+          {faq === faqQ.id && (
+            <div className={styles.faqAnswer}>{faqQ.answer}</div>
+          )}
         </Fragment>
       ))}
     </section>

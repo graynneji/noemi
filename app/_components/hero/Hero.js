@@ -5,6 +5,7 @@ export default function Hero({ src, name }) {
   return (
     <section className={styles.heroContainer}>
       {name && <h1 className={styles.hOne}>{name}</h1>}
+
       <Image
         src={src}
         fill

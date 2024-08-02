@@ -9,6 +9,27 @@
     height: 400px;
 
 }
+@media (max-width: 968px){
+    .services{
+        height: 300px;
+    }
+
+ }
+@media (max-width: 798px){
+    .services{
+        height: 250px;
+    }
+
+ }
+ @media (max-width: 689.6px){
+    .services{
+        height:250px;
+    
+
+     
+    }
+
+ }
 
 .tutorials{
     width: 54.2rem;

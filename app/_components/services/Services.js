@@ -7,6 +7,10 @@ import ImageContainer from "../imageContainer/ImageContainer";
 export default function Services() {
   return (
     <section className={styles.servicesContainer}>
+      <div className={styles.hOneContainer}>
+        <h1 className={styles.hOne}>Leave the numbers to us</h1>
+      </div>
+
       <p className={styles.servicesParah}>
         Big or small, we are ready to keep your accounting transition seamless.
         We offer a range of accounting services that are adaptable to your
