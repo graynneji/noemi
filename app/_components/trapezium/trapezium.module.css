@@ -10,6 +10,7 @@
       clip-path: polygon(0% 0%, 100% 0%, 100% 50%, 50% 80%, 0% 50%);
       color: #ffffff;
 position: relative;
+margin-top: -.7rem;
 }
     /* .hOne{
       font-size: 3.6rem;

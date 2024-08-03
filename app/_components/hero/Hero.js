@@ -1,7 +1,7 @@
 import Image from "next/image";
 import styles from "./hero.module.css";
 
-export default function Hero({ src, name }) {
+export default function Hero({ src, name, text }) {
   return (
     <section className={styles.heroContainer}>
       <Image
@@ -16,6 +16,18 @@ export default function Hero({ src, name }) {
         quality={100}
       />
       {name && <h1 className={styles.hOne}>{name}</h1>}
+      {text && (
+        <div className={styles.hOneContainer}>
+          <div className={styles.leave}>
+            <h1>Leave the numbers to us</h1>
+          </div>
+          <div>
+            <h3 className={styles.hThree}>
+              Explore our different service options
+            </h3>
+          </div>
+        </div>
+      )}
     </section>
   );
 }

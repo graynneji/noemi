@@ -16,6 +16,90 @@ text-align: center;
     color: #ffffff;
 }
 
+.hOneContainer{
+    position: absolute;
+    display: flex;
+    z-index: 1000;
+    bottom: -4rem;
+    color: #ffffff;
+    width: 100%;
+    /* gap: 3rem; */
+    justify-content: space-between;
+    padding: 0rem 4rem 0rem 4rem ;
+  
+}
+.leave{
+    width: 36rem;
 
+    height: 11rem;
+    max-width: 100%;
+    font-size: 4.5rem;
+    line-height: 1;
+}
+.hThree{
+    margin-top: 6.8rem;
+}
+@media (max-width: 785.6px){
+    .leave{
+        width: 30rem;
+    
+        height: 11rem;
+        max-width: 100%;
+        font-size: 3.5rem;
+        line-height: 1;
+    }
+    .hThree{
+        margin-top: 6.8rem;
+        /* font-size: 1.5rem; */
+    }
+    .hOneContainer{
+        bottom: -5rem;
+    }
+}
+@media (max-width: 725.6px){
+    
+    /* .hOneContainer{
+        bottom: 3rem;
+       flex-direction: column;
+       gap: 7rem;
+       height: 3rem;
+    }
+    .hThree{
+        margin-top: 0rem;
+      
 
+    } */
+     .hThree{
+          font-size: 1.5rem;
+     }
+}
+@media (max-width: 658px){
+    
+    .hOneContainer{
+        bottom: 3rem;
+       flex-direction: column;
+       gap: 7rem;
+       height: 3rem;
+    }
+    .hThree{
+        margin-top: 0rem;
+        font-size: 2rem;
 
+    }
+}
+@media (max-width: 452px){
+    
+  
+    .hThree{
+     
+        font-size: 1.5rem;
+
+    }
+}
+@media (max-width: 356px){
+    
+  
+    .hOneContainer{
+        padding: 0rem 2rem 0rem 2rem ;
+    }
+}

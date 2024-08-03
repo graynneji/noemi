@@ -8,9 +8,9 @@ import Button from "../button/Button";
 export default function Services() {
   return (
     <section className={styles.servicesContainer}>
-      <div className={styles.hOneContainer}>
+      {/* <div className={styles.hOneContainer}>
         <h1 className={styles.hOne}>Leave the numbers to us</h1>
-      </div>
+      </div> */}
       {/* <div className={styles.hOneContainer}>
         <div className={styles.hhOne}>
           <h1 className={styles.hOne}>Leave the numbers to us</h1>
