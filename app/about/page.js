@@ -11,7 +11,7 @@ export default function Page() {
   return (
     <>
       <Hero src={aboutImage} name="ABOUT US" />
-      <Feature>
+      <Feature type="about">
         <AboutUs />
       </Feature>
       {/* <Trapezium />

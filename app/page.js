@@ -7,7 +7,7 @@ export default function Page() {
   return (
     <>
       <Hero src={image} />
-      <Feature>Where expertise meet empathy</Feature>
+      <Feature type="home">Where expertise meet empathy</Feature>
       <Offer />
     </>
   );

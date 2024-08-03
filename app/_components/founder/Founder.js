@@ -13,6 +13,7 @@ export default function Founder() {
             className={styles.founderImage}
             src={profileImage}
             fill
+            layout="fill"
             placeholder="blur"
             alt="founder"
             quality={100}

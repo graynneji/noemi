@@ -1,4 +1,12 @@
 import styles from "./feature.module.css";
-export default function Feature({ children }) {
-  return <section className={styles.feature}>{children}</section>;
+
+const typeStyles = {
+  about: styles.about,
+  home: styles.home,
+};
+export default function Feature({ children, type }) {
+  const className = typeStyles[type] || "";
+  return (
+    <section className={`${styles.feature} ${className}`}>{children}</section>
+  );
 }
