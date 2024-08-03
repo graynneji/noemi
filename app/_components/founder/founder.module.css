@@ -30,10 +30,14 @@
     object-fit: cover;
     border-radius: 20rem;
     width: 100%;
-  height: auto;
+    height: auto;
 }
 .founder{
     writing-mode:sideways-lr;
+    -ms-transform: rotate(180deg); /* For older IE versions */
+    -webkit-transform: rotate(180deg); /* For older Safari versions */
+    -moz-transform: rotate(180deg); /* For older Firefox versions */
+    -o-transform: rotate(180deg); /* For older Opera versions */
     transform: rotate(360deg);
     transform-origin: bottom right;
     /* text-align: left; */
