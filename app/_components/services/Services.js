@@ -4,6 +4,7 @@ import consulting from "@/public/Consulting.jpg";
 import financing from "@/public/Financial.jpg";
 import bookkeeping from "@/public/Bookkeeping.jpg";
 import ImageContainer from "../imageContainer/ImageContainer";
+import Button from "../button/Button";
 export default function Services() {
   return (
     <section className={styles.servicesContainer}>
@@ -17,36 +18,45 @@ export default function Services() {
         business needs. Our services include, and are not limited to:
       </p>
       <div className={styles.colImage}>
-        <ImageContainer type="services">
-          <Image
-            src={consulting}
-            placeholder="blur"
-            className={styles.imgs}
-            fill
-            quality={100}
-            alt="img1"
-          />
-        </ImageContainer>
-        <ImageContainer type="services">
-          <Image
-            src={financing}
-            placeholder="blur"
-            className={styles.imgs}
-            fill
-            quality={100}
-            alt="img2"
-          />
-        </ImageContainer>
-        <ImageContainer type="services">
-          <Image
-            src={bookkeeping}
-            placeholder="blur"
-            className={styles.imgs}
-            fill
-            quality={100}
-            alt="img3"
-          />
-        </ImageContainer>
+        <div className={styles.servicesBtn}>
+          <ImageContainer type="services">
+            <Image
+              src={consulting}
+              placeholder="blur"
+              className={styles.imgs}
+              fill
+              quality={100}
+              alt="img1"
+            />
+          </ImageContainer>
+          <Button type="services">BOOKEEPING</Button>
+        </div>
+        <div className={styles.servicesBtn}>
+          <ImageContainer type="services">
+            <Image
+              src={financing}
+              placeholder="blur"
+              className={styles.imgs}
+              fill
+              quality={100}
+              alt="img2"
+            />
+          </ImageContainer>
+          <Button type="services">CONSULTING</Button>
+        </div>
+        <div className={styles.servicesBtn}>
+          <ImageContainer type="services">
+            <Image
+              src={bookkeeping}
+              placeholder="blur"
+              className={styles.imgs}
+              fill
+              quality={100}
+              alt="img3"
+            />
+          </ImageContainer>
+          <Button type="services">FINANCIAL</Button>
+        </div>
       </div>
     </section>
   );

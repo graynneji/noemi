@@ -1,0 +1,16 @@
+.btn{
+    padding: .5rem 1rem .5rem 1rem;
+    background-color: #bfcb94;
+    border: none;
+    border-radius: 1rem;
+    color: #ffffff;
+    text-align: center;
+    cursor: pointer;
+}
+.send{
+    width: 15%;
+}
+.services{
+    width: 20rem;
+    max-width: 100%;
+}

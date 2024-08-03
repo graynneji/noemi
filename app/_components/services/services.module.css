@@ -42,7 +42,7 @@ font-size: 2.4rem;
     grid-template-columns: 1fr 1fr 1fr;
    gap: 5rem;
 }
-@media (max-width: 689.6px){
+@media (max-width: 799.2px){
     .colImage{
     
         grid-template-columns: auto;
@@ -63,5 +63,10 @@ font-size: 2.4rem;
     }
 }
 
-
-    
+.servicesBtn{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 3rem;
+}  

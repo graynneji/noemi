@@ -1,6 +1,7 @@
 "use client";
 import { useForm } from "react-hook-form";
 import styles from "./contactForm.module.css";
+import Button from "../button/Button";
 function ContactForm() {
   const {
     register,
@@ -32,7 +33,7 @@ function ContactForm() {
           <div>
             <textarea className={styles.area} rows="6" />
           </div>
-          <button className={styles.btn}>Send</button>
+          <Button type="send">Send</Button>
         </form>
       </section>
     </>

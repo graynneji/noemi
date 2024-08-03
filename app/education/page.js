@@ -7,7 +7,7 @@ import { FaqProvider } from "../context/FaqContext";
 export default function Page() {
   return (
     <>
-      <Hero src={educationImage} />
+      <Hero src={educationImage} name="FAQ & EDUCATIONAL" />
       <EducationText />
       <FaqProvider>
         <Faq />
