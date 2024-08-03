@@ -84,7 +84,7 @@ font-size: 2.4rem;
 .colImage{
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
-   gap: 5rem;
+   /* gap: 5rem; */
 }
 @media (max-width: 799.2px){
     .colImage{
@@ -95,6 +95,7 @@ font-size: 2.4rem;
  }
 .imgs{
     border-radius: 30rem;
+   
     
 }
 

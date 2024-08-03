@@ -30,11 +30,12 @@ export default function Navigation() {
           />
           <Image
             src="/logoTEXTnew_bleu.png"
-            height={20}
+            height={16}
             width={100}
             alt="logo text"
             className={styles.imges}
             quality={100}
+            // style={{ width: "100%" }}
           />
         </div>
         <ul className={styles.links}>

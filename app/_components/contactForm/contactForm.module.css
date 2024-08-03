@@ -2,10 +2,12 @@
     display: flex;
     gap: 2.5rem;
     background-color: #344a67;
-
+overflow-x: hidden;
     justify-content: center;
     align-items: center;
     padding: 5rem;
+    margin-top: -1rem;
+    /* height: 100vh; */
 }
 @media (max-width: 625.6px){
     .contactContainer{

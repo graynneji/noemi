@@ -46,7 +46,7 @@ export default function RootLayout({ children }) {
               <Navigation />
             </header>
             <main>{children}</main>
-            <footer>copyright</footer>
+            {/* <footer>copyright</footer> */}
           </div>
         </body>
       </NavMenuProvider>

@@ -57,3 +57,14 @@ text-align: left;
   
     
 }
+@media (max-width: 380px){
+    
+        .parahAbout{
+            font-size: .87rem;
+        
+                 }
+    
+    
+  
+    
+}

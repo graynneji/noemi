@@ -34,6 +34,9 @@
 }
 .founder{
     writing-mode:sideways-lr;
+    transform: rotate(360deg);
+    transform-origin: bottom right;
+    /* text-align: left; */
     font-weight: 800;
     font-size: 3.6rem;
     letter-spacing: .7rem;

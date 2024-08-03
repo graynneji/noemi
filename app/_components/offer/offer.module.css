@@ -10,6 +10,8 @@
     font-size: 3.4rem;
     justify-content: center;
     align-items: center;
+    /* overflow: hidden; */
+    /* text-align: left; */
 }
 @media (max-width: 898px){
     .offerSection{

@@ -34,11 +34,27 @@ export default function Services() {
               src={consulting}
               placeholder="blur"
               className={styles.imgs}
-              fill
-              quality={100}
               alt="img1"
+              style={{
+                // width: "100px",
+                width: "100%",
+                height: "100%",
+                borderRadius: "200px",
+                objectFit: "contain",
+              }}
             />
           </ImageContainer>
+          {/* <ImageContainer type="services"> */}
+          {/* <Image
+            src={consulting}
+            placeholder="blur"
+            className={styles.imgs}
+      
+            quality={100}
+            alt="img1"
+            style={{ width: "54px", height: "300px" }}
+          /> */}
+          {/* </ImageContainer> */}
           <Button type="services">BOOKEEPING</Button>
         </div>
         <div className={styles.servicesBtn}>
