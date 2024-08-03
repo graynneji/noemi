@@ -7,7 +7,9 @@ export default function Founder() {
   return (
     <section className={styles.founderSection}>
       <figure className={styles.founderGroup}>
-        <span className={styles.founder}>FOUNDER</span>
+        <div className={styles.turn}>
+          <span className={styles.founder}>FOUNDER</span>
+        </div>
 
         <ImageContainer type="founder">
           <Image

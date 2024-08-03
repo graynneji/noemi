@@ -32,35 +32,35 @@
     width: 100%;
     height: auto;
 }
+.turn{
+    /* background-color: rgba(255, 0, 0, 0.392); */
+    transform: rotate(270deg);
+    transform-origin: center;
+    /* justify-self: end; */
+    /* display: inline; */
+    /* position: absolute; */
+    width: 6rem;
+    margin-top: 15rem;
+}
 .founder{
+ 
+    /* writing-mode: sideways-lr;
+    -webkit-writing-mode:sideways-lr; */
+
   
-    writing-mode: sideways-lr;
-    -webkit-writing-mode:sideways-lr;
-    /* -webkit-transform: rotate(180deg); */
-  -webkit-transform-origin: bottom left;
-  -webkit-perspective: 1000;
-  -webkit-backface-visibility: hidden;
-    -ms-transform: rotate(180deg); /* For older IE versions */
-    -webkit-transform: rotate(180deg); /* For older Safari versions */
-    -moz-transform: rotate(180deg); /* For older Firefox versions */
-    -o-transform: rotate(180deg); /* For older Opera versions */
-    transform: rotate(180deg);
-    transform-origin: bottom right;
-    /* text-align: left; */
+    /* -webkit-transform-origin: bottom right;
+    transform-origin: bottom right; */
     font-weight: 800;
     font-size: 3.6rem;
     letter-spacing: .7rem;
 }
 
 .founderGroup{
-    /* display: flex;
-    gap: 2rem;
-    justify-content: center;
-    align-items: center; */
+/* background-color: green; */
     display: flex;
     justify-content: center;
     align-items: center;
-    gap: 5rem;
+    gap: 2rem;
 }
 
 @media (max-width: 625.6px){
@@ -70,6 +70,6 @@
 
     }
     .founderGroup{
-        gap: 3rem;
+        gap: 2rem;
     }
 }
