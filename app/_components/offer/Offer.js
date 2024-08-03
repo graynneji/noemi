@@ -19,6 +19,8 @@ export default function Offer() {
           placeholder="blur"
           className={styles.secondImage}
           fill
+          // style={{ width: "100%", height: "100%" }}
+          // sizes="100vw"
           alt="Book keeping"
           quality={100}
         />

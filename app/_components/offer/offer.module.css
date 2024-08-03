@@ -50,5 +50,9 @@ font-size: 2.5rem;
     .offerText{
         font-size: 1.5rem;
             }
-}
+            .offerSection{
+
+                padding: 5rem 3rem 5rem 3rem ;
+            }
+        }
 

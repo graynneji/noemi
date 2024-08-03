@@ -16,5 +16,22 @@
 @media (max-width: 505px){
     .feature{
         font-size: 2rem;
+        padding: 5rem 2rem 5rem 2rem;
+    }
+}
+@media (max-width: 420px){
+    .feature{
+    }
+}
+@media (max-width: 358px){
+    .feature{
+        padding: 3rem 1rem 3rem 1rem;
+        font-size: 1.5rem;
+    }
+}
+@media (max-width: 272px){
+    .feature{
+        padding: 2rem .5rem 2rem .5rem;
+        font-size: 1rem;
     }
 }
