@@ -52,7 +52,7 @@
 .founder{
     width:450px;
     height: 600px;
-    position: relative;
+    /* position: relative; */
 }
 @media (max-width: 626px){
     .founder{
