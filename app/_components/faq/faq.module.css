@@ -5,6 +5,7 @@
     padding-right: 8rem;
     font-size: 2rem;
     cursor: pointer;
+    height: 100vh;
 }
 @media (max-width: 631px){
     .faq{
