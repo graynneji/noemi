@@ -6,10 +6,10 @@
     gap: 5rem;
 
 }
-.hOneContainer{
+/* .hOneContainer{
     position: absolute;
     top: -35rem;
-    z-index: 99999;
+    z-index: 1000;
     color: white;
     width: 36rem;
 
@@ -17,7 +17,7 @@
     max-width: 100%;
     font-size: 4.5rem;
     line-height: 1;
-}
+} */
 /* .hOneContainer{
     position: absolute;
     top: -35rem;

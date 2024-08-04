@@ -2,8 +2,9 @@ import Navigation from "./_components/navigation/Navigation";
 import "@/app/_styles/globalStyles.css";
 // import { Montserrat } from "next/font/google";
 import { Poppins } from "next/font/google";
-import { NavMenuProvider } from "./context/NavMenuContext";
-
+import { NavMenuProvider, useNavMenu } from "./context/NavMenuContext";
+import styles from "./layout.module.css";
+import BlurBackground from "./_components/blurBackground/BlurBackground";
 const poppins = Poppins({
   //subset if you using english its latin
   subsets: ["latin"],
@@ -41,7 +42,9 @@ export default function RootLayout({ children }) {
     <html lang="en">
       <NavMenuProvider>
         <body className={poppins.className}>
-          <div className="container">
+          <div className={styles.container}>
+            <BlurBackground />
+            {/* <div className="container"> */}
             <header>
               <Navigation />
             </header>
