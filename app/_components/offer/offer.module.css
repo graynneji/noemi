@@ -29,6 +29,7 @@
 .secondImage{
     border-radius: 50rem;
     object-fit: cover;
+    place-self: center;
 }
 
 @media (max-width: 1187.2px){

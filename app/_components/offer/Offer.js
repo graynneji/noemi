@@ -13,18 +13,25 @@ export default function Offer() {
         growth, and peace of mind.
       </div>
       {/* <div className={styles.imaageContainer}> */}
-      <ImageContainer type="home">
-        <Image
-          src={second}
-          placeholder="blur"
-          className={styles.secondImage}
-          fill
-          // style={{ width: "100%", height: "100%" }}
-          // sizes="100vw"
-          alt="Book keeping"
-          quality={100}
-        />
-      </ImageContainer>
+      {/* <ImageContainer type="home"> */}
+      <Image
+        src={second}
+        placeholder="blur"
+        className={styles.secondImage}
+        // fill
+        // style={{ width: "100%", height: "100%" }}
+        // sizes="100vw"
+        alt="Book keeping"
+        quality={100}
+        style={{
+          // width: "100px",
+          width: "300px",
+          height: "400px",
+          borderRadius: "200px",
+          objectFit: "cover",
+        }}
+      />
+      {/* </ImageContainer> */}
       {/* </div> */}
     </section>
   );
