@@ -1,8 +1,8 @@
 import Image from "next/image";
 import styles from "./services.module.css";
-import consulting from "@/public/Consulting.jpg";
+import consulting from "@/public/ConsultingServices.jpg";
 import financing from "@/public/Financial.jpg";
-import bookkeeping from "@/public/Bookkeeping.jpg";
+import bookkeeping from "@/public/Bookkeepingservice.jpg";
 import ImageContainer from "../imageContainer/ImageContainer";
 import Button from "../button/Button";
 export default function Services() {
@@ -29,21 +29,21 @@ export default function Services() {
       </p>
       <div className={styles.colImage}>
         <div className={styles.servicesBtn}>
-          <ImageContainer type="services">
-            <Image
-              src={consulting}
-              placeholder="blur"
-              className={styles.imgs}
-              alt="img1"
-              style={{
-                // width: "100px",
-                width: "100%",
-                height: "100%",
-                borderRadius: "200px",
-                objectFit: "contain",
-              }}
-            />
-          </ImageContainer>
+          {/* <ImageContainer type="services"> */}
+          <Image
+            src={consulting}
+            placeholder="blur"
+            className={styles.imgs}
+            alt="img1"
+            style={{
+              // width: "100px",
+              width: "300px",
+              height: "400px",
+              borderRadius: "200px",
+              objectFit: "cover",
+            }}
+          />
+          {/* </ImageContainer> */}
           {/* <ImageContainer type="services"> */}
           {/* <Image
             src={consulting}
@@ -58,29 +58,44 @@ export default function Services() {
           <Button type="services">BOOKEEPING</Button>
         </div>
         <div className={styles.servicesBtn}>
-          <ImageContainer type="services">
-            <Image
-              src={financing}
-              placeholder="blur"
-              className={styles.imgs}
-              fill
-              quality={100}
-              alt="img2"
-            />
-          </ImageContainer>
+          {/* <ImageContainer type="services"> */}
+          <Image
+            src={financing}
+            placeholder="blur"
+            className={styles.imgs}
+            // fill
+            quality={100}
+            alt="img2"
+            style={{
+              // width: "100px",
+              width: "300px",
+              height: "400px",
+              borderRadius: "200px",
+              objectFit: "cover",
+            }}
+          />
+          {/* </ImageContainer> */}
           <Button type="services">CONSULTING</Button>
         </div>
         <div className={styles.servicesBtn}>
-          <ImageContainer type="services">
-            <Image
-              src={bookkeeping}
-              placeholder="blur"
-              className={styles.imgs}
-              fill
-              quality={100}
-              alt="img3"
-            />
-          </ImageContainer>
+          {/* <ImageContainer type="services"> */}
+          <Image
+            src={bookkeeping}
+            placeholder="blur"
+            className={styles.imgs}
+            // fill
+            quality={100}
+            alt="img3"
+            style={{
+              // width: "100px",
+              maxWidth: "100%",
+              width: "300px",
+              height: "400px",
+              borderRadius: "200px",
+              objectFit: "cover",
+            }}
+          />
+          {/* </ImageContainer> */}
           <Button type="services">FINANCIAL</Button>
         </div>
       </div>
