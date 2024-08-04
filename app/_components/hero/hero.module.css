@@ -2,20 +2,55 @@
 .heroContainer{
 
  position: relative;
+ 
 
 }
-
+.guidance{
+    position: absolute;
+    font-size: 2rem;
+    background-color: #344a67;
+    color: #ffffff;
+    bottom: -9px;
+    padding-left: 10rem;
+    border-radius: 5rem;
+    padding-right: 5rem;
+    padding-bottom: .5rem;
+    padding-top: .5rem;
+    z-index: 99;
+}
+@media (max-width: 571px){
+    .guidance{
+        padding-left: 5rem;
+        font-size: 1.5rem;
+        padding-right: 3rem;
+        bottom: -4px;
+    }
+   
+}
+.heroLogo{
+position: absolute;
+top: 50%;
+left: 50%;
+transform: translate(-50%, -50%);
+}
 
 .hOne{
     position: absolute;
 /* text-align: center; */
-    bottom: 2px;
+    bottom: 5rem;
     left: 65px;
     z-index: 100;
     font-size: 4.6rem;
     color: #ffffff;
 }
-
+.edu{
+    font-size: 4.6rem;
+    color: #ffffff;
+    position: absolute;
+top: 50%;
+left: 50%;
+transform: translate(-50%, -50%);
+}
 .hOneContainer{
     position: absolute;
     display: flex;
