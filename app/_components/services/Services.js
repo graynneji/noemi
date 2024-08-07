@@ -38,8 +38,8 @@ export default function Services() {
               alt="img1"
               style={{
                 // width: "100px",
-                width: "290px",
-                height: "420px",
+                width: "270px",
+                height: "410px",
                 borderRadius: "200px",
                 objectFit: "cover",
               }}
@@ -62,15 +62,17 @@ export default function Services() {
             {/* <ImageContainer type="services"> */}
             <Image
               src={financing}
-              placeholder="blur"
+              // placeholder="blur"
               className={styles.imgs}
               // fill
               quality={100}
               alt="img2"
               style={{
                 // width: "100px",
-                width: "300px",
-                height: "400px",
+                // width: "300px",
+                // height: "400px",
+                width: "270px",
+                height: "410px",
                 borderRadius: "200px",
                 objectFit: "cover",
               }}
@@ -82,7 +84,7 @@ export default function Services() {
             {/* <ImageContainer type="services"> */}
             <Image
               src={bookkeeping}
-              placeholder="blur"
+              // placeholder="blur"
               className={styles.imgs}
               // fill
               quality={100}
@@ -90,8 +92,8 @@ export default function Services() {
               style={{
                 // width: "100px",
                 maxWidth: "100%",
-                width: "300px",
-                height: "400px",
+                width: "270px",
+                height: "410px",
                 borderRadius: "200px",
                 objectFit: "cover",
               }}

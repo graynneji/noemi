@@ -24,7 +24,7 @@ filter: hue-rotate(210deg) saturate(2.5) brightness(0.9) contrast(1.2);
     display: flex;
     gap: 2rem;
     font-weight: 500;
-    font-size: 1.2rem;
+    font-size: 1.4rem;
 }
 .mobileMenu{
     display: none;
