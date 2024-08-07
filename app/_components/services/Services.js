@@ -1,7 +1,7 @@
 import Image from "next/image";
 import styles from "./services.module.css";
 import consulting from "@/public/ConsultingServices.jpg";
-import financing from "@/public/Financial.jpg";
+import financing from "@/public/Financial-min.webp";
 import bookkeeping from "@/public/Bookkeepingservice.jpg";
 import ImageContainer from "../imageContainer/ImageContainer";
 import Button from "../button/Button";
@@ -32,13 +32,13 @@ export default function Services() {
           {/* <ImageContainer type="services"> */}
           <Image
             src={consulting}
-            placeholder="blur"
+            // placeholder="blur"
             className={styles.imgs}
             alt="img1"
             style={{
               // width: "100px",
-              width: "300px",
-              height: "400px",
+              width: "290px",
+              height: "420px",
               borderRadius: "200px",
               objectFit: "cover",
             }}

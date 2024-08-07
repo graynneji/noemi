@@ -24,13 +24,14 @@ export default function Hero({ src, name, text, image, guide }) {
         // fill
         // width={100}
         // height="500px"
-        placeholder="blur"
+        // placeholder="blur"
         alt="hero image"
         // className={styles.heroImage}
         style={{ width: "100%", height: "auto" }}
         quality={100}
       />
-      {name && <h1 className={!guide ? styles.hOne : styles.edu}>{name}</h1>}
+      {name && <h1 className={styles.edu}>{name}</h1>}
+      {/* {name && <h1 className={!guide ? styles.hOne : styles.edu}>{name}</h1>} */}
       {guide && <div className={styles.guidance}>Need some guidance?</div>}
       {text && (
         <div className={styles.hOneContainer}>

@@ -42,6 +42,9 @@ transform: translate(-50%, -50%);
     z-index: 100;
     font-size: 4.6rem;
     color: #ffffff;
+    top: 50%;
+left: 50%;
+transform: translate(-50%, -50%);
 }
 .edu{
     font-size: 4.6rem;
@@ -62,7 +65,7 @@ transform: translate(-50%, -50%);
     position: absolute;
     display: flex;
     z-index: 100;
-    bottom: -4rem;
+    bottom: 3.7em;
     color: #ffffff;
     width: 100%;
     /* gap: 3rem; */
@@ -71,7 +74,7 @@ transform: translate(-50%, -50%);
   
 }
 .leave{
-    width: 36rem;
+    width: 28rem;
 
     height: 11rem;
     max-width: 100%;
@@ -83,7 +86,7 @@ transform: translate(-50%, -50%);
 }
 @media (max-width: 785.6px){
     .leave{
-        width: 30rem;
+        width: 23rem;
     
         height: 11rem;
         max-width: 100%;
@@ -95,7 +98,7 @@ transform: translate(-50%, -50%);
         /* font-size: 1.5rem; */
     }
     .hOneContainer{
-        bottom: -5rem;
+        /* bottom: -5rem; */
     }
 }
 @media (max-width: 725.6px){
@@ -118,7 +121,7 @@ transform: translate(-50%, -50%);
 @media (max-width: 658px){
     
     .hOneContainer{
-        bottom: 3rem;
+        bottom: 13rem;
        flex-direction: column;
        gap: 7rem;
        height: 3rem;

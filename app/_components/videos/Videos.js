@@ -1,6 +1,6 @@
 import Image from "next/image";
 import styles from "./videos.module.css";
-import video from "@/public/Contact us.jpg";
+import video from "@/public/Contact us-min.webp";
 import ImageContainer from "../imageContainer/ImageContainer";
 export default function Videos() {
   return (

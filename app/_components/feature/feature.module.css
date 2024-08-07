@@ -37,6 +37,8 @@
 }
 .about{
     padding: 3rem;
+    border-radius: 0rem;
+    /* margin-top: rem; */
         }
 
 @media (max-width: 656px){

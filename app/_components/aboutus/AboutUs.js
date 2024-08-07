@@ -1,6 +1,6 @@
 import styles from "./aboutUs.module.css";
 
-export default function aboutUs() {
+export default function AboutUs() {
   return (
     <div className={styles.aboutUs}>
       <p className={styles.parahAbout}>

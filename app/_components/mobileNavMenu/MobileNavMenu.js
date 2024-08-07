@@ -20,7 +20,7 @@ function MobileNavMenu() {
         <Link onClick={toggleMenu} href="/">
           <li className={styles.liLi}>HOME</li>
         </Link>
-        <Link onClick={toggleMenu} href="/about">
+        <Link onClick={toggleMenu}>
           <li className={styles.liLi}>ABOUT</li>
         </Link>
         <Link onClick={toggleMenu} href="/services">

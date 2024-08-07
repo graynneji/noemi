@@ -1,6 +1,6 @@
 import Image from "next/image";
 import styles from "./founder.module.css";
-import profileImage from "@/public/Bookkeeping.jpg";
+import profileImage from "@/public/Bookkeeping-min.webp";
 import ImageContainer from "../imageContainer/ImageContainer";
 
 export default function Founder() {

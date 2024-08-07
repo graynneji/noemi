@@ -5,12 +5,14 @@
     position: relative;
     background-color: #f3f7f2;
     z-index: 107;
+    position: fixed;
+    width: 100vw;
 }
 .logo{
     display: flex;
     justify-content: center;
     align-items: center;
-    gap: 1rem;
+    gap: .7rem;
     color: #344a67;
 }
 .imges{

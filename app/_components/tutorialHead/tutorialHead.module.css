@@ -9,23 +9,23 @@
     /* justify-content: center;
     align-items: center; */
 }
-.imgs{
+/* .imgs{
     border-radius: 30rem;
     object-fit: cover;
     position: relative;
     
-}
+} */
 .triangle {
-    width: 0; 
+    width: 2rem; 
     height: 0; 
     border-top: 270px solid transparent;
     border-bottom: 0px solid transparent;
     border-left: 210px solid #344a67; 
     /* z-index: 100; */
     position: absolute;
-    bottom: -3rem;
-    left: -3rem;
-   
+    bottom: 1rem;
+    left: 15rem;
+   max-width: 100%;
 
 }
 .hOne{

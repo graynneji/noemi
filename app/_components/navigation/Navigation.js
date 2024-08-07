@@ -23,14 +23,14 @@ export default function Navigation() {
           <Image
             src="/logoAC.png"
             height={23}
-            width={12}
+            width={15.7}
             quality={100}
             className={styles.imges}
             alt="Logo Accountibility"
           />
           <Image
             src="/logoTEXTnew_bleu.png"
-            height={16}
+            height={12}
             width={100}
             alt="logo text"
             className={styles.imges}
@@ -39,16 +39,16 @@ export default function Navigation() {
           />
         </div>
         <ul className={styles.links}>
-          <Link href="/">
+          <Link href="#">
             <li>HOME</li>
           </Link>
-          <Link href="/about">
+          <Link href="#about">
             <li>ABOUT</li>
           </Link>
-          <Link href="/services">
+          <Link href="#services">
             <li>SERVICES</li>
           </Link>
-          <Link href="/contact">
+          <Link href="#contact">
             <li>CONTACT</li>
           </Link>
         </ul>
