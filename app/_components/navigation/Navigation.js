@@ -17,7 +17,8 @@ export default function Navigation() {
 
   return (
     <>
-      {open && <MobileNavMenu />}
+      {/* {open && <MobileNavMenu />} */}
+      <MobileNavMenu />
       <nav className={styles.nav}>
         <div className={styles.logo}>
           <Image

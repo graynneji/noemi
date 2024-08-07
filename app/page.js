@@ -42,7 +42,7 @@ export default function Page() {
         <Services />
       </section>
 
-      <section id="contact" style={{ marginBottom: "9rem" }}>
+      <section id="contact">
         <Hero src={contact} name="CONTACT" />
         <ContactForm />
       </section>

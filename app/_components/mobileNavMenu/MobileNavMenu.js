@@ -15,7 +15,7 @@ function MobileNavMenu() {
   //   }, [open]);
   //   console.log(open);
   return (
-    <nav className={styles.mobileNav}>
+    <nav className={`${styles.mobileNav}  ${open ? styles.open : ""} `}>
       <ul className={styles.links}>
         <Link onClick={toggleMenu} href="#">
           <li className={styles.liLi}>HOME</li>

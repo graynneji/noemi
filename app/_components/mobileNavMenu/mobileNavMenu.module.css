@@ -6,6 +6,13 @@ top: 23px;
 z-index: 106;
 background-color: #f3f7f2;
 padding: 2rem;
+opacity: 0;
+    visibility: hidden;
+    transform: translateX(-100%);
+transition: opacity 0.3s ease-in-out, transform 0.3s ease-in-out, visibility 0.3s ease-in-out;
+
+/* transition */
+
 }
 .offDisplay{
 
@@ -22,3 +29,12 @@ padding: 2rem;
     margin-top: 3rem;
 
 }
+
+.open{
+    opacity: 1;
+visibility: visible;
+transform: translateX(0);
+}
+
+
+/* ${open ? styles.open : styles.close} */
