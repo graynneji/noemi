@@ -1,9 +1,10 @@
 import Image from "next/image";
 import styles from "./hero.module.css";
 
-export default function Hero({ src, name, text, image, guide }) {
+export default function Hero({ src, name, text, image, guide, services }) {
   return (
     <section className={styles.heroContainer}>
+      {/* {services && <div className={styles.helperDiv} />} */}
       {image && (
         <Image
           src={image}
@@ -33,7 +34,7 @@ export default function Hero({ src, name, text, image, guide }) {
       {name && <h1 className={styles.edu}>{name}</h1>}
       {/* {name && <h1 className={!guide ? styles.hOne : styles.edu}>{name}</h1>} */}
       {guide && <div className={styles.guidance}>Need some guidance?</div>}
-      {text && (
+      {/* {text && (
         <div className={styles.hOneContainer}>
           <div className={styles.leave}>
             <h1>Leave the numbers to us</h1>
@@ -44,7 +45,7 @@ export default function Hero({ src, name, text, image, guide }) {
             </h3>
           </div>
         </div>
-      )}
+      )} */}
     </section>
   );
 }

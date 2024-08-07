@@ -32,6 +32,7 @@ position: absolute;
 top: 50%;
 left: 50%;
 transform: translate(-50%, -50%);
+opacity: 0.3;
 }
 
 .hOne{
@@ -65,12 +66,15 @@ transform: translate(-50%, -50%);
     position: absolute;
     display: flex;
     z-index: 100;
-    bottom: 3.7em;
+    /* bottom: 3.7em; */
+    top: 56rem;
+    /* left: 10rem; */
     color: #ffffff;
     width: 100%;
     /* gap: 3rem; */
     justify-content: space-between;
     padding: 0rem 4rem 0rem 4rem ;
+    background-color: pink;
   
 }
 .leave{
@@ -148,3 +152,11 @@ transform: translate(-50%, -50%);
         padding: 0rem 2rem 0rem 2rem ;
     }
 }
+
+/* .helperDiv{
+    width: 100vw;
+    background-color: #f3f7f2;
+    height: 200px;
+    margin-top: 62rem;
+    position: absolute;
+  } */

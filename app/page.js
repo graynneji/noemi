@@ -12,6 +12,7 @@ import leaveImage from "@/public/leaves the number to us-min.webp";
 import image2 from "@/public/logoAC_colorOfficielgrey.png";
 import ContactForm from "./_components/contactForm/ContactForm";
 import contact from "@/public/Contact us-min.webp";
+import consulting from "@/public/Consulting-min.webp";
 
 const text = {
   head: "Leave the Numbers to us",
@@ -36,7 +37,7 @@ export default function Page() {
       </section>
 
       <section id="services" style={{ marginBottom: "9rem" }}>
-        <Hero src={leaveImage} image={image2} text={text} />
+        <Hero src={consulting} image={image2} services={true} text={text} />
         <Trapezium />
         <Services />
       </section>

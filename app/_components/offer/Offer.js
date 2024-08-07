@@ -37,8 +37,8 @@ export default function Offer() {
         alt="Book keeping"
         quality={100}
         style={{
-          width: "460px",
-          height: "480px",
+          width: "440px",
+          height: "460px",
           maxWidth: "100%",
           alignSelf: "center",
           justifySelf: "center",
