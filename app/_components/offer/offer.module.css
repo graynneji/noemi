@@ -20,13 +20,11 @@
     display: flex;
     gap: 5rem;
     flex-direction: column;
-    font-size: 2.5rem;
+    font-size: 1.6rem;
     /* text-align: justify; */
 }
 @media (max-width: 1197.6px){
-    .offerText{
-        font-size: 2rem;
-    }
+  
 }
 @media (max-width: 898px){
     .offerSection{
