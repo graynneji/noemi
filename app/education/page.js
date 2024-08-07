@@ -1,7 +1,7 @@
 import EducationText from "../_components/educationText/EducationText";
 import Faq from "../_components/faq/Faq";
 import Hero from "../_components/hero/Hero";
-import educationImage from "@/public/2ND PICTURE HOME PAGE.jpg";
+import educationImage from "@/public/2ND PICTURE HOME PAGE-min.webp";
 import { FaqProvider } from "../context/FaqContext";
 
 export default function Page() {
