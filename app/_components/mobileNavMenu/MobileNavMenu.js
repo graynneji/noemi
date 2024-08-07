@@ -17,16 +17,16 @@ function MobileNavMenu() {
   return (
     <nav className={styles.mobileNav}>
       <ul className={styles.links}>
-        <Link onClick={toggleMenu} href="/">
+        <Link onClick={toggleMenu} href="#">
           <li className={styles.liLi}>HOME</li>
         </Link>
-        <Link onClick={toggleMenu}>
+        <Link onClick={toggleMenu} href="#about">
           <li className={styles.liLi}>ABOUT</li>
         </Link>
-        <Link onClick={toggleMenu} href="/services">
+        <Link onClick={toggleMenu} href="#services">
           <li className={styles.liLi}>SERVICES</li>
         </Link>
-        <Link onClick={toggleMenu} href="/contact">
+        <Link onClick={toggleMenu} href="#contact">
           <li className={styles.liLi}>CONTACT</li>
         </Link>
       </ul>
